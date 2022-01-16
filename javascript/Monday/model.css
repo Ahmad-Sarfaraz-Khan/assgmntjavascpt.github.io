@@ -1,0 +1,85 @@
+body{
+    margin: 20px;
+}
+header{
+    background-color: rgb(31, 18, 214);
+    height: 50px;
+    text-align: center;
+}
+.model{
+    display: flex;
+    flex-flow: row;
+}
+.box1{
+    background-color: burlywood;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+}
+.main{
+    background-color: skyblue;
+    height: 200px;
+}
+.box2{
+    background-color: pink;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+}
+footer{
+    margin-top: -20px;
+    background-color: rgb(10, 143, 10);
+    height: 50px;
+    text-align: center;
+}
+@media (max-width:800px){
+    .model{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .box1{
+        background-color: yellow;
+        height: 60px;
+        width: 50%;
+        text-align: center;
+        order: 2;
+    }
+    .main{
+        background-color: skyblue;
+        height: 200px;
+        order: 1;
+    }
+    .box2{
+        background-color: pink;
+        height: 50px;
+        width: 50%;
+        text-align: center;
+        order: 3;
+    }
+}
+@media (max-width:600px){
+    .model{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .box1{
+        background-color:burlywood;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .main{
+        background-color: rgb(13, 129, 175);
+        height: 200px;
+        order: 1;
+        overflow: scroll;
+    }
+    .box2{
+        background-color: blue;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        order: 4;
+    }
+}
