@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    color: rgb(253, 243, 243);
+    background:  rgb(70, 231, 252);
+}
+h1{
+    color: blue;
+}
+.content{
+    background-color: #083d86;
+    max-width: 300px;
+    margin: auto;
+    border: 5px solid rgb(24, 2, 2);
+}
+.head{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0;
+    border-bottom: 5px solid black;
+    background: rgb(243, 23, 15);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2em;
+    align-items: center;
+}
+#scroll{
+    height: 350px;
+    overflow-y: scroll;
+}
+.search{
+    font-size: 1.2em;
+    border: 5px solid rgb(10, 0, 19);
+    padding: 0.1em;
+    border-radius: 10px;
+}
+
