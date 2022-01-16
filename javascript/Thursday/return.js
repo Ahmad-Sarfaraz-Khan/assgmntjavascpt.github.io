@@ -12,4 +12,4 @@ const matrix = [
     [4, 8, 5, 8],
     [7, 1, 6, 9],
   ];
-console.log(s(matrix));
+document.write(s(matrix));
